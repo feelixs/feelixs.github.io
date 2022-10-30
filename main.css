@@ -1073,6 +1073,9 @@ a {
 .padding-top-24 {
   padding-top: 24px !important;
 }
+.para {
+  line-height: 2;
+}
 .left {
   float: left !important;
 }
