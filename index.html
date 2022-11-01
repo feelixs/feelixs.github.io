@@ -14,12 +14,12 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 
 <!-- content defines a container for fixed size centered content,
 and is wrapped around the whole page content, except for the footer in this example -->
+<div>
 <div class="content" style="max-width:1400px">
 
 <!-- Header -->
-<header class="container center padding-32">
-  <h1><b>MY BLOG</b></h1>
-  <p>Welcome to the blog of <span class="tag">Michael Miele-Herndon</span></p>
+<header class="container center padding-32" style="background-color: #9970ea">
+ <img src="indextitle.png" class="center" style="width: 1000px">
 </header>
 
 <!-- Grid -->
@@ -27,9 +27,28 @@ and is wrapped around the whole page content, except for the footer in this exam
 
 <!-- Blog entries -->
 <div class="col l8 s12">
+    <!-- Blog entry -->
+  <div class="card-4 margin white">
+  <img src="snowy.jpg" alt="Snowy" style="width:100%">
+    <div class="container">
+      <h3><b>Every day can be the weekend</b></h3>
+      <h5>if you want it to be &ensp;<span class="opacity">November 1, 2022</span></h5>
+    </div>
+
+    <div class="container">
+      <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed
+        tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      <div class="row">
+        <div class="col m8 s12">
+          <p><button class="button padding-large white border"><b>READ MORE »</b></button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Blog entry -->
   <div class="card-4 margin white">
-    <img src="future.jpg" alt="Nature" style="width:100%">
+    <img src="future.jpg" alt="Beach" style="width:100%">
     <div class="container">
       <h3><b>Should we care about the future?</b></h3>
       <h5>Our predictions are never accurate, anyway  &ensp;<span class="opacity">October 30, 2022</span></h5>
@@ -46,24 +65,7 @@ and is wrapped around the whole page content, except for the footer in this exam
   </div>
   <hr>
 
-  <!-- Blog entry -->
-  <div class="card-4 margin white">
-  <img src="bridge.jpg" alt="Norway" style="width:100%">
-    <div class="container">
-      <h3><b>BLOG ENTRY</b></h3>
-      <h5>Title description, <span class="opacity">April 2, 2014</span></h5>
-    </div>
 
-    <div class="container">
-      <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed
-        tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-      <div class="row">
-        <div class="col m8 s12">
-          <p><button class="button padding-large white border"><b>READ MORE »</b></button></p>
-        </div>
-      </div>
-    </div>
-  </div>
 <!-- END BLOG ENTRIES -->
 </div>
 
@@ -73,7 +75,7 @@ and is wrapped around the whole page content, except for the footer in this exam
   <div class="card margin margin-top">
   <img src="avatar_g.jpg" style="width:100%">
     <div class="container white">
-      <h4><b>My Name</b></h4>
+      <h4><b>Michael Miele-Herndon</b></h4>
       <p>Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a interest of lorem ipsum and mauris neque quam blog. I want to share my world with you.</p>
     </div>
   </div><hr>
@@ -81,7 +83,7 @@ and is wrapped around the whole page content, except for the footer in this exam
   <!-- Posts -->
   <div class="card margin">
     <div class="container padding">
-      <h4>Popular Posts</h4>
+      <h4>About me</h4>
     </div>
     <ul class="ul hoverable white">
       <li class="padding-16">
@@ -115,6 +117,6 @@ and is wrapped around the whole page content, except for the footer in this exam
 <footer class="container dark-grey padding-32 margin-top small">
 &copy; Michael Miele-Herndon 2022
 </footer>
-
+</div>
 </body>
 </html>
