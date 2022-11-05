@@ -276,6 +276,10 @@ a {
 .badge {
   border-radius: 50%;
 }
+.social {
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
 .ul {
   list-style-type: none;
   padding: 0;
