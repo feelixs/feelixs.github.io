@@ -1,9 +1,109 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta http-equiv="refresh" content="2; URL=https://felixcreations.com">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="icon" href="favicon.ico" type="image/x-icon"> -->
+    <title>About Me | Michael MH</title>
+    <!--<link rel="stylesheet" href="landing.css">-->
+    <link rel="stylesheet" href="css/projects.css">
 </head>
 <body>
-<p>You should be redirected in a moment. Otherwise, click <a href="https://felixcreations.com">me</a></p>
+<main>
+    <div id="content">
+        <header>
+            <h1>Hi, I'm <span class="title-color">Michael Felix Miele-Herndon</span></h1>
+            <ul id="about-me">
+                <li>University of Rhode Island Class of 2024</li>
+                <li>Computer Science; Bachelor of Science</li>
+            </ul>
+        </header>
+
+        <p class="title-color">&nbsp;&nbsp;Thanks for stopping by! For an idea of what I enjoy creating, consider checking out one of my projects like:
+        <ul style="list-style: circle">
+            <li><a target="_blank" href="https://mike-fmh.github.io/blog/home.html">One of my blog posts</a></li>
+        </ul>
+        &nbsp;&nbsp;or, continue reading to check out all the projects I've shared.</p>
+
+        <section id="personal-projects">
+            <h2 class="title-color">Personal Projects</h2>
+            <ul>
+                <li><a target="_blank" href="https://clyppy.com">Clyppy.com</a>
+                    <br><b>Multi-Purpose website</b> - Linux, Django, MySQL, Nginx
+                    <br>May 2023 - Present
+                    <br><span style="font-size:0.8em;margin-left:10px">- Web portal for users of the CLYPPY Bot, built over a MySQL DB</span>
+                    <br><span style="font-size:0.8em;margin-left:10px">- Here users can configure alerts for the bot to send in their Discord chats and customize the bot's behavior</span>
+                </li>
+                <li><a target="_blank" href="https://github.com/mike-fmh/clyppy-bot">CLYPPY Discord Bot</a>
+                    <br><b>Multi-Purpose Social App</b> - Python, interactions.py, MySQL, asyncio
+                    <br>May 2023 - Present
+                    <br><span style="font-size:0.8em;margin-left:10px">- Misc Discord Alert Bot that can be added to any Discord server and configured through its website</span>
+                    <br><span style="font-size:0.8em;margin-left:10px">- Interfaces with a MySQL DB to store data and user settings</span>
+                </li>
+                <li><a target="_blank" href="https://github.com/mike-fmh/twitch-livebot">DiscoTwitch</a>
+                    <br><b>Discord Bot for Twitch.tv alerts</b> - Python, discord.py, asyncio
+                    <br>Sept 2020 - May 2023
+                    <br><span style="font-size:0.8em;margin-left:10px">- A pet project for small-scale purposes & for me to experiment using an API such as Discord's in a real-world app</span>
+                    <br><span style="font-size:0.8em;margin-left:10px">- Integrated "database" implemented through loading/storing a json file into Python memory</span>
+                </li>
+                <li><a target="_blank" href="https://github.com/mike-fmh/find-song">find-song</a>
+                    <br><b>Reddit Bot for Music Recognition</b> - Python, PRAW, ACRCloud API
+                    <br>Jan 2021 - Present
+                    <br><span style="font-size:0.8em;margin-left:10px">- Developed a music recognition bot to help users identify songs playing in posted content</span>
+                    <br><span style="font-size:0.8em;margin-left:10px">- Designed to parse the audio of a Reddit video, but supports links to many other streaming sites</span>
+                    <!--<br><span style="font-size:0.8em;margin-left:10px">- The bot dynamically creates new webpages on <a target="_blank" href="https://song-find.web.app">its website</a> when a new song is identified</span>-->
+                </li>
+            </ul>
+        </section>
+
+        <section id="academic-projects">
+            <h2 class="title-color">Academic Projects</h2>
+            <ul>
+                <li><a target="_blank" href="https://github.com/mike-fmh/othello-minimax">GUI Othello vs. Minimax AI</a>
+                    <br><b>Final Project: CSC340</b> - C++, OpenGL, GLUT
+                    <br>Nov - Dec 2023
+                    <br><span style="font-size:0.8em;margin-left:10px">- Implemented the game Othello (Reversi) in C++</span>
+                    <br><span style="font-size:0.8em;margin-left:10px">- The game features a fully-functioning Minimax bot that users can play against</span>
+                </li>
+                <li><a target="_blank" href="https://mike-fmh.github.io/flashquiz/">FlashQuiz Study Tool</a>
+                    <br><b>Build Badge: CSC392</b> - Python, Pygame
+                    <br>Apr - Mar 2023
+                    <br><span style="font-size:0.8em;margin-left:10px">- Developed an interactive Python-based GUI application designed to facilitate the study of user-created flashcards</span>
+                    <br><span style="font-size:0.8em;margin-left:10px">- Implemented a user-friendly interface with keyboard and mouse interactivity for card flipping & navigation</span>
+                </li>
+                <li><a target="_blank" href="https://mike-fmh.github.io/gcc-integration/">JetBrains Plugin - GCC/G++ Integration</a>
+                    <br><b>Build Badge: CSC392</b> - Java, IntelliJ SDK
+                    <br>Apr - May 2023
+                    <br><span style="font-size:0.8em;margin-left:10px">- Developed a plugin to facilitate C/C++ development for the PyCharm IDE</span>
+                    <br><span style="font-size:0.8em;margin-left:10px">- Allows users to easily compile the active file & run the resulting executable within the IDE</span>
+                </li>
+                <li>URI Video Game Dev
+                    <br><b>Final Project: CSC305</b> - Python, Pygame
+                    <br>Sept - Dec 2022
+                    <br><span style="font-size:0.8em;margin-left:10px">- Collaborated with a team of 10 students, I worked on a video game that entered the early beta stage</span>
+                    <br><span style="font-size:0.8em;margin-left:10px">- Led the implementation of the Game Map & Camera - working with Python, Pygame, OOP Principals</span>
+                </li>
+                <li><a target="_blank" href="https://mike-fmh.github.io/blog/home.html">Blog on Mindfulness</a>
+                    <br><b>Multimodal Argument: WRT201</b> - Creative Writing
+                    <br>Oct - Nov 2022
+                </li>
+                <li><a target="_blank" href="https://www.youtube.com/watch?v=s8oOVjGo5cI">Building a Drone</a>
+                    <br><b>Maker Badge: WRT104</b> - Technical Build
+                    <br>Sept - Oct 2021
+                </li>
+            </ul>
+        </section>
+    </div>
+
+</main>
+
 </body>
+
+<footer id="contact" class="site-footer">
+    <ul>
+        <li><a target="_blank" href="mailto:mikemh@uri.edu">Email</a></li>
+        <li><a target="_blank" href="https://github.com/mike-fmh">GitHub</a></li>
+        <li><a target="_blank" href="https://www.linkedin.com/in/michael-felix-/">LinkedIn</a></li>
+    </ul>
+</footer>
 </html>
