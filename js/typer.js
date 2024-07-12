@@ -13,5 +13,5 @@ window.onload = function() {
         }
     }
 
-    setTimeout(typeWriter, 1000);
+    setTimeout(typeWriter, 270);
 }
