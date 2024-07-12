@@ -26,6 +26,10 @@ ul {
     color: black;
 }
 
+#typed {
+    color: #404042;
+}
+
 #nav-bar {
     overflow: hidden;
     background: #525252;
