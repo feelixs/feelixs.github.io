@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+
+/* PAGE STYLE */
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+td, tr { /* for the album cover table */
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+}
+
+img {
+    max-height: 100%;
+}
+
+main {
+    background-color: #1f1f1f;
+}
+
+/* CLASSES */
+
+.align-center {
+    text-align: center;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.playwrite-cu-title {
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5em;
+}
+
+.white {
+    color: white;
+}
+
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.album-image {
+    width: 200px;
+}
+
+.album-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.album-image {
+    transition: transform 0.3s ease-in-out;
+}
+
+.album-image:hover {
+    transform: scale(1.1);
+}
+
+.title-pad-left {
+    padding-left: 200px;
+}
+
+.title {
+    font-size: 2em;
+    font-weight: bold;
+    font-family: "Sama Devanagari", Arial, sans-serif;
+}
+
+/* ID'S */
+
+#logo {
+    width: 100px;
+}
+
+#albums-container {
+    background-color: white;
+    padding: 100px 50px 50px 100px; /* around the whole table */
+}
+
+#albums-table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+#band-container {
+    height: 500px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}

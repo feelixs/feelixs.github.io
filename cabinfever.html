@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="icon" href="favicon.ico" type="image/x-icon"> -->
+    <title>Cabin Fever | HOME</title>
+    <link rel="stylesheet" href="css/fever.css">
+</head>
+<body>
+<nav>
+    <img id="logo" src="media/cf-logo.webp" alt="Cabin Fever logo" class="logo">
+    <div class="align-left">
+        <span class="playwrite-cu-title white" id="typed">Cabin Fever</span><span id="cursor"></span>
+    </div>
+    <script src="js/typer-cf.js"></script>
+</nav>
+<main>
+    <div id="content">
+        <div id="band-container">
+            <img class="img-center" src="media/band.webp" alt="Cabin Fever performing live">
+        </div>
+        <div id="albums-container">
+            <p id="js-warning-albums">Please enable javascript to view this content</p>
+            <h2 class="title title-pad-left">OUR MUSIC</h2>
+            <table id="albums-table">
+                <!-- Populated via albums-cf.js -->
+            </table>
+        </div>
+    </div>
+</main>
+
+<script src="js/albums-cf.js"></script>
+</body>
+</html>
