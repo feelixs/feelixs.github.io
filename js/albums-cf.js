@@ -44,7 +44,6 @@ async function getMySecret() {
     const response = await fetch('https://trioluna.com/api/spotify-secret');
     // storing privately on this remote server and fetching it securely for now
     const data = await response.json();
-    console.log(data);
     return data.secret;
 }
 
@@ -80,7 +79,7 @@ function renderImgs(imgs, urls) {
 getMySecret().then(clientSecret => {
     const artistId = '59yZaUd3eLLGsz10hRIT3Y'; // cabin fever id
     getAlbumsByArtist(artistId, clientSecret).then(albums => {
-        console.log('Albums:', albums);
+        // console.log('Albums:', albums);
         for (const album of albums) { // populate albumImages
             albumImages.push(album.art);
             albumHrefs.push(album.url);
