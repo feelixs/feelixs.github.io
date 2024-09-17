@@ -48,15 +48,12 @@ async function getMySecret() {
 }
 
 function renderImgs(imgs, urls) {
-    // Render images on the page in a table format
     const albumTable = document.getElementById('albums-table');
-    document.getElementById('js-warning-albums').innerHTML = '';  // Clear warning
-    // Initialize a row variable outside the loop
+    document.getElementById('js-warning-albums').innerHTML = '';  // clear warning
     let row = albumTable.insertRow();
 
     for (let i = 0; i < imgs.length; i++) {
-        // Check if the current index is divisible by 4
-        // If yes, create a new row after filling the previous one
+        // create table of 4 per row
         if (i % 4 === 0 && i !== 0) {
             row = albumTable.insertRow();
         }
@@ -70,7 +67,6 @@ function renderImgs(imgs, urls) {
         img.classList.add('album-image');
         link.appendChild(img);
 
-        // Create a cell in the row and append the image
         const cell = row.insertCell();
         cell.appendChild(link);
     }
